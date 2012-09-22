@@ -1,0 +1,12 @@
+{
+    "cmd": ["chordii","-o","$file_base_name-formatted.ps", "$file"],
+    "selector": "text.chordpro",
+
+    "osx": {
+    	"cmd": ["$packages/ChordPro/bin/chordii.osx","-o","$file_base_name-formatted.ps", "$file"]
+    },
+
+    "windows": {
+    	"cmd": ["$packages\\ChordPro\\bin\\chordii.exe","-o","$file_base_name-formatted.ps", "$file"]
+    }
+}

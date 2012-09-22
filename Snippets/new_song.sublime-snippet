@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+{new_song}
+
+]]></content>
+	<tabTrigger>_newsong</tabTrigger>
+	<scope>text.chordpro</scope>
+	<description>ChordPro: new song</description>
+</snippet>

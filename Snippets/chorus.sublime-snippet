@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+{start_of_chorus}
+$SELECTION$0
+{end_of_chorus}
+
+]]></content>
+	<tabTrigger>_chorus</tabTrigger>
+	<scope>text.chordpro</scope>
+	<description>ChordPro: chorus tag</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+{define: ${1:name} base-fret ${2:offset} frets ${4:s1},${5:s2},${6:s3},${7:s4},${8:s5},${9:s6}}
+]]></content>
+	<tabTrigger>_def</tabTrigger>
+	<scope>text.chordpro</scope>
+	<description>insert ChordPro chord definition tag</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+{title: $SELECTION$0}
+]]></content>
+	<tabTrigger>_title</tabTrigger>
+	<scope>text.chordpro</scope>
+	<description>ChordPro: title tags</description>
+</snippet>
