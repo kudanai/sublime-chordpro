@@ -1,6 +1,6 @@
 # ChordPro support for Sublime Text
 
-This repository contains various elements to support ChordPro files in Sublime Text 2. It currently includes the following:
+This repository contains various elements to support ChordPro files in Sublime Text 2 & 3. It currently includes the following:
 
  - Syntax highlighting,
  - Snippets
