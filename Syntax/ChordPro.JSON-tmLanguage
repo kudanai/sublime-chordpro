@@ -1,32 +1,32 @@
 { "name": "ChordPro",
   "scopeName": "text.chordpro",
-  "fileTypes": ["chordpro","chord","crd","chpro","cho","chopro"],
+  "fileTypes": ["chordpro","chord","crd","chpro","cho","chopro", "pro"],
   "patterns": [
-  	{ 
-  		"name":"markup.withparams.chordpro", 
+  	{
+  		"name":"markup.withparams.chordpro",
   		"match":"(?i:(\\{)(title|subtitle|comment_italic|comment|define|textfont|textsize|chordfont|chordsize|columns|page_type|t|st|ci|c|col):(.+)(\\}))",
   		"captures": {
   		    "2": { "name": "support.function.chordpro" },
           "3": { "name": "variable.parameter.chordpro"}
   		}
   	},
-    { 
-      "name":"markup.noparams.chordpro", 
+    {
+      "name":"markup.noparams.chordpro",
       "match":"(?i:(\\{)(new_song|start_of_chorus|end_of_chorus|start_of_tab|end_of_tab|no_grid|grid|new_page|new_physical_page|column_break|ns|soc|eoc|sob|eob|ng|g|npp|np|colb|col)(\\}))",
       "captures": {
           "2": { "name": "support.function.chordpro" }
       }
     },
-    { 
-      "name":"comment.chordpro", 
+    {
+      "name":"comment.chordpro",
       "match":"^#.*$"
     },
-    { 
-      "name":"keyword.chordpro", 
+    {
+      "name":"keyword.chordpro",
       "match":"(\\[)(.+?)(\\])"
     },
-    { 
-      "name":"string.chordpro", 
+    {
+      "name":"string.chordpro",
       "match":"^([a-gA-G])(\\s)*?([\\|\\-\\d\\^bs\\/])+",
       "captures": {
           "1": { "name": "keyword.chordpro" },
