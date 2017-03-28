@@ -31,7 +31,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(?i:(\{)(title|subtitle|comment_italic|comment|define|textfont|textsize|chordfont|chordsize|columns|page_type|t|st|ci|c|col):(.+)(\}))</string>
+			<string>(?i:(\{)(title|subtitle|composer|artist|album|key|time|tempo|comment_italic|comment|define|textfont|textsize|chordfont|chordsize|columns|page_type|t|st|ci|c|col):(.+)(\}))</string>
 			<key>name</key>
 			<string>markup.withparams.chordpro</string>
 		</dict>
